@@ -1,0 +1,23 @@
+{
+  "name": "pi_iv-b",
+  "version": "1.0.0",
+  "description": "Projeto Integrador IV-B",
+  "main": "index.js",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ssotter/PI_IV-B.git"
+  },
+  "author": "Sergio LLopart Sotter",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ssotter/PI_IV-B/issues"
+  },
+  "homepage": "https://github.com/ssotter/PI_IV-B#readme"
+}

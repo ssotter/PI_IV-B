@@ -1,0 +1,34 @@
+[
+    {
+        "id": "t7o9jcmhpp8",
+        "nome": "Claudia Mota Estabel",
+        "endereco": "Av. Presidente Vargas",
+        "cep": "96200-001",
+        "data": "15112020",
+        "fone": "789456123"
+    },
+    {
+        "id": "divcs3pjg08",
+        "nome": "Sergio Lllopart Sotter",
+        "endereco": "Rua Visconde de Maua 153",
+        "cep": "96211-030",
+        "data": "16112020",
+        "fone": "5312341234"
+    },
+    {
+        "id": "91e6sm36jdo",
+        "nome": "Fausto Silva",
+        "endereco": "Av. Rede Globo, 10000",
+        "cep": "96200-100",
+        "data": "21112020",
+        "fone": "33445566"
+    },
+    {
+        "id": "fccd5jusl8",
+        "nome": "Carlos Marques",
+        "endereco": "Rua Silva Paes, 1200",
+        "cep": "96200-123",
+        "data": "20 112020",
+        "fone": "33447788"
+    }
+]
