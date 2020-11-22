@@ -9,14 +9,14 @@ server.use(express.json({extended: true}))
 
 // Criar função de Leitura de arquivo
 const readFile = () => {
-    const content = fs.readFileSync('./data/itens.json', 'utf-8')
+    const content = fs.readFileSync('./data/clientes.json', 'utf-8')
     return (JSON.parse(content))
 }
 
 // Criar função de Escrita de arquivo
 const writeFile = (content) => {
     const updateFile = JSON.stringify(content)
-    fs.writeFileSync('./data/itens.json', updateFile, 'utf-8')
+    fs.writeFileSync('./data/clientes.json', updateFile, 'utf-8')
 }
 
 // ROTA GET -> leitura de dados e mostrar dados
