@@ -62,7 +62,7 @@ router.put('/:id', function(req,res){
 // ROTA DELETE -> deletar dados
 router.delete('/:id', function(req,res){
     const {id} = req.params
-    const currentContent = readFile
+    const currentContent = readFile()
 
     const selectedItem = currentContent.findIndex((item) => item.id === id)
 
