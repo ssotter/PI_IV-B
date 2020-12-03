@@ -1,0 +1,37 @@
+<html>
+    <body>
+        <h1> Cadastro de Clientes </h1>
+
+        <form action="/clientes" method="post">
+
+            <div if (data.cliente.id)>
+                <input type="hidden" name="_method" value="PUT">
+                <input type="hidden" id="id" name="id" value="${data.cliente.id}" />
+            </div>
+            
+            <div>
+                <label for="nome">Nome: </label>
+                <input type="text" id="nome" name="nome" value="${data.cliente.nome}" placeholder="Digite o nome do cliente">
+            </div>
+            <div>
+                <label for="endereço">Endereço: </label>
+                <input type="text" id="endereco" name="endereco" value="${data.cliente.endereco}" placeholder="Digite o endereço">
+            </div>
+            <div>
+                <label for="cep">Cep: </label>
+                <input type="text" id="cep" name="cep" value="${data.cliente.cep}" placeholder="Digite o Cep">
+            </div>
+            <div>
+                <label for="data">Data de nascimento: </label>
+                <input type="text" id="data" name="data" value="${data.cliente.data}" placeholder="Digite a data de nascimento">
+            </div>
+            <div>
+                <label for="fone">Fone: </label>
+                <input type="text" id="fone" name="fone" value="${data.cliente.fone}" placeholder="Digite o telefone para contato">
+            </div>
+
+            <input type="submit" value="Salvar" />
+
+        </form>
+    </body>
+</html>
