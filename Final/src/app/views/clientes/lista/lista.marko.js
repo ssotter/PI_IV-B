@@ -22,7 +22,7 @@ function render(input, out, __component, component, state) {
 
   component_globals_tag({}, out);
 
-  out.w("<h1> Listagen de clientes </h1><table id=\"clientes\"><tr><td>ID</td><td>Nome</td><td>Endereço</td><td>Cep</td><td>Data Nascimento</td><td>Fone</td><td></td><td></td></tr>");
+  out.w("<h1> Listagem de Clientes </h1><table id=\"clientes\"><tr><td>ID</td><td>Nome</td><td>Endereço</td><td>Cep</td><td>Data Nascimento</td><td>Fone</td><td></td><td></td></tr>");
 
   var for__15 = 0;
 

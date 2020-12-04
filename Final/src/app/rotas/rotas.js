@@ -1,12 +1,16 @@
 const ClienteDao = require('../infra/cliente-dao')
 const db = require('../../config/database');
 const listaMarko = require('../views/clientes/lista/lista.marko');
+const html = require('marko/src/html');
 
 module.exports = (app) => {
+
+    // ROTA raiz 
     app.get('/', function(req, res){
-        res.send('<html><body><h1> Projeto Integrador PI-IV-B - UCPel </h1></body></html>');
+        res.marko(require('../views/clientes/form/raiz.marko'));
     });
     
+
     // ROTA para Listar Clientes
     app.get('/clientes', function(req, res){
 

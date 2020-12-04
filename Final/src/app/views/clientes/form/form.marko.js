@@ -30,19 +30,19 @@ function render(input, out, __component, component, state) {
 
   out.w("<div><label for=\"nome\">Nome: </label><input type=\"text\" id=\"nome\" name=\"nome\" value=\"" +
     marko_escapeXmlAttr(data.cliente.nome) +
-    "\" placeholder=\"Digite o nome do cliente\"></div><div><label for=\"endereço\">Endereço: </label><input type=\"text\" id=\"endereco\" name=\"endereco\" value=\"" +
+    "\"></div><div><br><label for=\"endereço\">Endereço: </label><input type=\"text\" id=\"endereco\" name=\"endereco\" value=\"" +
     marko_escapeXmlAttr(data.cliente.endereco) +
-    "\" placeholder=\"Digite o endereço\"></div><div><label for=\"cep\">Cep: </label><input type=\"text\" id=\"cep\" name=\"cep\" value=\"" +
+    "\"></div><div><br><label for=\"cep\">Cep: </label><input type=\"text\" id=\"cep\" name=\"cep\" value=\"" +
     marko_escapeXmlAttr(data.cliente.cep) +
-    "\" placeholder=\"Digite o Cep\"></div><div><label for=\"data\">Data de nascimento: </label><input type=\"text\" id=\"data\" name=\"data\" value=\"" +
+    "\"></div><div><br><label for=\"data\">Data de nascimento: </label><input type=\"text\" id=\"data\" name=\"data\" value=\"" +
     marko_escapeXmlAttr(data.cliente.data) +
-    "\" placeholder=\"Digite a data de nascimento\"></div><div><label for=\"fone\">Fone: </label><input type=\"text\" id=\"fone\" name=\"fone\" value=\"" +
+    "\"></div><div><br><label for=\"fone\">Fone: </label><input type=\"text\" id=\"fone\" name=\"fone\" value=\"" +
     marko_escapeXmlAttr(data.cliente.fone) +
-    "\" placeholder=\"Digite o telefone para contato\"></div><input type=\"submit\" value=\"Salvar\"></form>");
+    "\"></div><br><input type=\"submit\" value=\"Salvar\"></form>");
 
   init_components_tag({}, out);
 
-  await_reorderer_tag({}, out, __component, "23");
+  await_reorderer_tag({}, out, __component, "28");
 
   out.w("</body></html>");
 }

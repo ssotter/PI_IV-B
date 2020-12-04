@@ -39,7 +39,7 @@ INSERT INTO clientes (
     cep,
     data,
     fone
-) SELECT 'Sergio LLopart Sotter', 'Rua Visconde de Mauá 153', '96211030', '01121968', '984125555' WHERE NOT EXISTS (SELECT * FROM clientes WHERE nome = 'Sergio LLopart Sotter')
+) SELECT 'Sergio Llopart Sotter', 'Rua Visconde de Mauá, 153', '96211-030', '01/12/1968', '984125555' WHERE NOT EXISTS (SELECT * FROM clientes WHERE nome = 'Sergio LLopart Sotter')
 `;
 
 const INSERIR_CLIENTE_2 = 
@@ -50,7 +50,7 @@ INSERT INTO clientes (
     cep,
     data,
     fone
-) SELECT 'Claudia Estabel', 'Av. Presidente Vargas 323', '96208040', '23061972', '984120000' WHERE NOT EXISTS (SELECT * FROM clientes WHERE nome = 'Claudia Estabel')
+) SELECT 'Claudia Estabel', 'Av. Presidente Vargas, 323', '96208-040', '23/06/1972', '984120000' WHERE NOT EXISTS (SELECT * FROM clientes WHERE nome = 'Claudia Estabel')
 `;
 
 const INSERIR_CLIENTE_3 = 
@@ -61,7 +61,7 @@ INSERT INTO clientes (
     cep,
     data,
     fone
-) SELECT 'Paulo Correa', 'Rua Rio Branco 1050', '96210390', '22021978', '984124444' WHERE NOT EXISTS (SELECT * FROM clientes WHERE nome = 'Paulo Correa')
+) SELECT 'Paulo Correa', 'Rua Rio Branco, 1050', '96210-390', '22/02/1978', '984124444' WHERE NOT EXISTS (SELECT * FROM clientes WHERE nome = 'Paulo Correa')
 `;
 
 const INSERIR_CLIENTE_4 = 
@@ -72,7 +72,7 @@ INSERT INTO clientes (
     cep,
     data,
     fone
-) SELECT 'Diquerson de Barros', 'Av. Silva Paes 3023 apto 101', '96201098', '21051972', '984122222' WHERE NOT EXISTS (SELECT * FROM clientes WHERE nome = 'Diquerson de Barros')
+) SELECT 'Diquerson de Barros', 'Av. Silva Paes, 3023 apto 101', '96201-098', '21/05/1972', '984122222' WHERE NOT EXISTS (SELECT * FROM clientes WHERE nome = 'Diquerson de Barros')
 `;
 
 const INSERIR_CLIENTE_5 = 
@@ -83,7 +83,7 @@ INSERT INTO clientes (
     cep,
     data,
     fone
-) SELECT 'Fabiana Guimarães', 'Rua Colombo 1222 apto 1201', '96200976', '11081978', '984126666' WHERE NOT EXISTS (SELECT * FROM clientes WHERE nome = 'Fabiana Guimarães')
+) SELECT 'Fausto Silva', 'Rua Colombo, 1222 apto 1201', '96200-976', '11/08/1978', '984126666' WHERE NOT EXISTS (SELECT * FROM clientes WHERE nome = 'Fausto Silva')
 `;
 
 
